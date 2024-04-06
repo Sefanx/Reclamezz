@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Reclamezz</string>
+    <string name="bjr">Bonjour / مرحبا</string>
+    <string name="reclam">Reclamation</string>
+    <string name="reclamar">الشكايات</string>
+    <string name="sugges">Suggestion</string>
+    <string name="suggesar">إقتراحات</string>
+    <string name="image_description">Touch App Icon</string>
+    <string name="hello">Bonjour / مرحبا</string>
+    <string name="prob">Avez-vous un problème?</string>
+    <string name="Description">Description</string>
+    <string name="deposer">Déposer</string>
+    <string name="Open">Open Navigation Drawer</string>
+    <string name="Close">Close Navigation Drawer</string>
+    <string name="titleRec">Vos Reclamations</string>
+    <string name="titleSugg">Vos Suggestions</string>
+    <string name="Contacter">Contacter</string>
+    <string name="choisir">Choisissez une option:</string>
+    <string name="mes_reclamations">Mes Reclamations</string>
+    <string name="description_hint">Description</string>
+    <string name="adresse_hint">Adresse</string>
+    <string name="no1">1</string>
+    <string name="Adresse1" tools:ignore="Typos">Adresse1</string>
+    <string name="Description1" tools:ignore="Typos">Description1</string>
+    <string name="descimage">Reclamation</string>
+    <string name="mes_Suggestions">Mes Suggestions</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="quitter">Quitter</string>
+
+
+
+
+
+
+
+</resources>

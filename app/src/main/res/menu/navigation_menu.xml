@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item android:id="@+id/reclamations"
+            android:icon="@drawable/info"
+            android:title="@string/mes_reclamations" />
+        <item android:id="@+id/suggestions"
+            android:icon="@drawable/lightbulb"
+            android:title="@string/mes_Suggestions"/>
+    </group>
+    <group>
+        <item android:id="@+id/contact"
+            android:icon="@drawable/baseline_chat_bubble_outline_24"
+            android:title="@string/Contacter"/>
+    </group>
+    <group>
+        <item android:id="@+id/quitter"
+            android:title="@string/quitter" />
+    </group>
+</menu>

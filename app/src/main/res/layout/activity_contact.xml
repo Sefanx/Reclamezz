@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Contacter"
+            style="@style/titre"
+            tools:ignore="MissingConstraints"
+            android:paddingTop="30dp"
+            android:fontFamily="@font/tommyextrabold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choisir"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/tommyextrabold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingBottom="300dp">
+
+
+
+        <Button
+            android:id="@+id/btnTel"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Téléphoner"
+            style="@style/btnStyle"
+            android:backgroundTint="@color/jaune"
+            android:fontFamily="@font/tommyextrabold"
+            />
+
+        <Button
+            android:id="@+id/btnSms"
+            android:layout_width="300dp"
+            style="@style/btnStyle"
+            android:backgroundTint="@color/jaune"
+            android:layout_height="wrap_content"
+            android:text="Envoyer SMS"
+            android:fontFamily="@font/tommyextrabold"
+            />
+    </LinearLayout>
+</LinearLayout>
